@@ -24,6 +24,5 @@
         "psr-4": {
             "Kumatch\\": "src/"
         }
-    },
-    "target-dir": "Kumatch/Launcher"
+    }
 }
