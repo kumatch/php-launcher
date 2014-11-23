@@ -1,4 +1,4 @@
-Chest
+Launcher
 ===========
 
 A service launcher using a Symfony DependencyInjection Component.
@@ -43,7 +43,7 @@ License
 
 Licensed under the MIT License.
 
-Copyright (c) 2013 Yosuke Kumakura
+Copyright (c) 2014 Yosuke Kumakura
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
