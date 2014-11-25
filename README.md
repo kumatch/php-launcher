@@ -38,6 +38,25 @@ $service = $launcher->MyappService;  // gets service by specific property.
 ```
 
 
+Rules of property/method for getting service
+--------------------------------------------
+
+| service id | property | method |
+| ------------- | ------------- | ----- |
+| request      | $launcher->Request | $launcher->launchRequest() |
+| mysql_session_storage | $launcher->MysqlSessionStorage | $launcher->launchMysqlSessionStorage() |
+| symfony.mysql_session_storage | $launcher->Symfony_MysqlSessionStorage | $launcher->launchSymfony_MysqlSessionStorage() |
+
+This camelization provides the Symfony DependencyInjection Component.
+
+
+
+See also
+-------
+
+* [kumatch/launcher-generator](https://github.com/kumatch/php-launcher-generator)
+
+
 License
 --------
 
